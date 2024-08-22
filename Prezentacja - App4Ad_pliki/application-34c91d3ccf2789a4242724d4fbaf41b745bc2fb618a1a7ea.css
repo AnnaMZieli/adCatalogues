@@ -5610,7 +5610,7 @@ small {
 /* line 162, /usr/local/bundle/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
 sub,
 sup {
-  font-size: 75%;
+  font-size: 60%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -11794,13 +11794,17 @@ tbody.collapse.in {
 /* line 25, /usr/local/bundle/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
-  margin-left: 0;
+  margin-left: -15px;
+  margin-top: -5px;
+  padding: 0 6px;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
 /* line 32, /usr/local/bundle/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
+  /* margin-left: -15px;
+  margin-top: -5px; */
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -15731,7 +15735,8 @@ button.dim:active:before {
   float: left;
   line-height: 1.42857;
   margin-left: -1px;
-  padding: 4px 10px;
+  margin-top: -5px;
+  padding: 0px 6px;
   position: relative;
   text-decoration: none;
 }
@@ -19831,7 +19836,7 @@ a.close-canvas-menu:hover {
 
 /* line 1078, /app4adapp/app/assets/stylesheets/base/base.scss */
 .m-t-lg {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 /* line 1082, /app4adapp/app/assets/stylesheets/base/base.scss */
@@ -21056,6 +21061,7 @@ dd.project-people {
   border-bottom: 1px solid #e7eaec;
   padding: 15px 10px;
   vertical-align: middle;
+  border: 1px solid #e7e7e7;
 }
 
 /* line 724, /app4adapp/app/assets/stylesheets/base/pages.scss */
@@ -21426,7 +21432,7 @@ table.issue-tracker tbody tr td {
 /* AGILE BOARD */
 /* line 1038, /app4adapp/app/assets/stylesheets/base/pages.scss */
 .sortable-list {
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 /* line 1042, /app4adapp/app/assets/stylesheets/base/pages.scss */
